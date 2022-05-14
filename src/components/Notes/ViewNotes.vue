@@ -12,7 +12,7 @@
   </AddEditNotes>
   <div class="card mb-4" v-for="note in notes" key="note.id">
     <div class="card-content">
-      <div class="content">
+      <div class="content" style="white-space:pre">
         {{ note.content }}
       </div>
     </div>
@@ -44,6 +44,7 @@
   >
     No notes here yet...
   </div>
+ 
 </template>
 
 <script setup>
